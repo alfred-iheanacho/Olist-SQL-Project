@@ -107,11 +107,11 @@ This section provides an overview of the business through fundamental SQL querie
 
 Queries include:
 
-- Total Customers
-- Total Orders
-- Total Revenue
-- Average Order Value
-- Order Status Distribution
+- Total_Customers
+- Total_Orders
+- Total_Revenue
+- Average_Order_Value
+- Order_Status_Distribution
 
 ---
 
@@ -121,10 +121,10 @@ This section analyzes sales performance across locations, products, and sellers.
 
 Queries include:
 
-- Monthly Revenue
-- Revenue by State
-- Top Product Categories
-- Top Sellers
+- Monthly_Revenue
+- Revenue_by_State
+- Top_Product_Categories
+- Top_Sellers
 
 ---
 
@@ -134,10 +134,10 @@ This section evaluates customer value, delivery performance, customer satisfacti
 
 Queries include:
 
-- Customer Lifetime Value
-- Delivery Performance Analysis
-- Payment Method Analysis
-- Average Review Score by Product Category
+- Customer_Lifetime_Value
+- Delivery_Performance_Analysis
+- Payment_Method_Analysis
+- Average_Review_Score_by_Product_Category
 
 ---
 
@@ -147,16 +147,18 @@ This section demonstrates advanced SQL techniques for deeper business analysis.
 
 Queries include:
 
-- Top Customers by Lifetime Value
-- Monthly Running Revenue
-- Seller Revenue Ranking
-- Top Product by Category
-- Customer Purchase Frequency
-- Average Delivery Time by State
-- Revenue Contribution by Category
-- Month-over-Month Revenue Growth
-- Sales Summary View
-- Index Creation
+- Top_Customers_by_Lifetime_Value
+- Monthly_Running_Revenue
+- Seller_Revenue_Ranking
+- Top_Product_by_Category
+- Customer_Purchase_Frequency
+- Average_Delivery_Time_by_State
+- Revenue_Contribution_by_Category
+- Month-over-Month_Revenue_Growth
+- Sales_Summary_View
+- Index_Creation
+
+---
 
 ---
 
@@ -164,79 +166,87 @@ Queries include:
 
 ### Database Tables
 
-![Database Tables](Images/database_tables.png)
+The screenshots below show the structure of the Olist SQLite database and the available tables used throughout the analysis.
+
+![Database Tables - Part 1](images/Table1.png)
+
+![Database Tables - Part 2](images/Table2.png)
+
+![Database Tables - Part 3](images/Table3.png)
+
+![Database Tables - Part 4](images/Table4.png)
+
+### Total Revenue
+
+![Total Revenue](images/Total_Revenue.png)
 
 ### Monthly Revenue
 
-![Monthly Revenue](Images/monthly_revenue.png)
+![Monthly Revenue](images/Monthly_Revenue.png)
 
 ### Revenue by State
 
-![Revenue by State](Images/revenue_by_state.png)
+![Revenue by State](images/Revenue_by_State.png)
 
 ### Top Product Categories
 
-![Top Product Categories](Images/top_categories.png)
+![Top Product Categories](images/Top_10_Product_Categories.png)
 
 ### Top Sellers
 
-![Top Sellers](Images/top_sellers.png)
+![Top Sellers](images/Top_Sellers.png)
 
 ### Customer Lifetime Value
 
-![Customer Lifetime Value](Images/customer_lifetime_value.png)
+![Customer Lifetime Value](images/Customer_Lifetime_Value.png)
 
 ### Payment Method Analysis
 
-![Payment Method Analysis](Images/payment_method_analysis.png)
+![Payment Method Analysis](images/Payment_Method_Analysis.png)
 
 ### Delivery Performance Analysis
 
-![Delivery Performance](Images/delivery_performance.png)
+![Delivery Performance Analysis](images/Delivery_Performance_Analysis.png)
 
 ### Average Review Score by Product Category
 
-![Average Review Score](Images/average_review_score.png)
+![Average Review Score by Category](images/Average_Review_Score_by_Category.png)
 
-### Top Customers by Lifetime Value
+### Top 5 Customers by Lifetime Value
 
-![Top Customers](Images/top_customers_lifetime_value.png)
+![Top 5 Customers by Lifetime Value](images/Top_5_Customers_by_Lifetime_Value.png)
 
 ### Monthly Running Revenue
 
-![Monthly Running Revenue](Images/monthly_running_revenue.png)
+![Monthly Running Revenue](images/Monthly_Running_Revenue.png)
 
 ### Seller Revenue Ranking
 
-![Seller Ranking](Images/seller_ranking.png)
+![Seller Revenue Ranking](images/Seller_Revenue_Ranking.png)
 
-### Top Product by Category
+### Top Product in Each Category
 
-![Top Product by Category](Images/top_product_by_category.png)
+![Top Product in Each Category](images/Product_in_Each_Category.png)
 
 ### Customer Purchase Frequency
 
-![Customer Purchase Frequency](Images/customer_purchase_frequency.png)
+![Customer Purchase Frequency](images/Customer_Purchase_Frequency.png)
 
 ### Average Delivery Time by State
 
-![Average Delivery Time](Images/average_delivery_time_state.png)
+![Average Delivery Time by State](images/Average_Delivery_Time_by_State.png)
 
-### Revenue Contribution by Category
+### Revenue Contribution by Product Category
 
-![Revenue Contribution](Images/revenue_contribution_category.png)
+![Revenue Contribution by Product Category](images/Revenue_Contribution_by_Product_Category.png)
 
 ### Month-over-Month Revenue Growth
 
-![Monthly Revenue Growth](Images/monthly_revenue_growth.png)
+![Month-over-Month Revenue Growth](images/Month-over-Month_Revenue_Growth.png)
 
 ### Sales Summary View
 
-![Sales Summary View](Images/sales_summary_view.png)
-
-### Index Creation
-
-![Index Creation](Images/index_creation.png)
+![Sales Summary View](images/Sales_Summary_View.png)
 
 ---
 
